@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-12T07:08:38.877Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.46" etag="e_gOXBTduOxynXnjMOub" version="20.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-12T07:11:26.874Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.46" etag="XRpyAb09TvUAl7L5pQFl" version="20.6.2" type="github">
   <diagram id="kLP8qakzrDYC7eFiV1lC" name="第 1 页">
     <mxGraphModel dx="1027" dy="483" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -120,7 +120,7 @@
           <mxGeometry x="1745" y="150" width="140" height="45" as="geometry" />
         </mxCell>
         <mxCell id="Gpq5c_7kHIedRwNDp9xH-32" value="&lt;span style=&quot;&quot;&gt;InMemoryUserDetailsManager&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;labelBackgroundColor=#FFFFFF;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="1730" y="290" width="210" height="305" as="geometry" />
+          <mxGeometry x="1730" y="290" width="170" height="305" as="geometry" />
         </mxCell>
         <mxCell id="Gpq5c_7kHIedRwNDp9xH-41" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;labelBackgroundColor=#FFFFFF;fontSize=12;fontColor=#000000;" vertex="1" parent="Gpq5c_7kHIedRwNDp9xH-32">
           <mxGeometry x="80" y="70" width="10" height="170" as="geometry" />
@@ -149,7 +149,7 @@
             <mxPoint x="1970" y="110" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Gpq5c_7kHIedRwNDp9xH-45" value="5.2、把对应的用户信息包括权限信息封装成UserDetails对象" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="Gpq5c_7kHIedRwNDp9xH-45" value="5.2、把对应的用户信息以及权限信息封装成UserDetails对象" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="1840" y="400" width="340" height="30" as="geometry" />
         </mxCell>
       </root>
