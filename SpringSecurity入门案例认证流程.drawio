@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-12T07:11:26.874Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.46" etag="XRpyAb09TvUAl7L5pQFl" version="20.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-12T07:12:52.665Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.46" etag="usLWgmPTI8FwzmgGzVKP" version="20.6.2" type="github">
   <diagram id="kLP8qakzrDYC7eFiV1lC" name="第 1 页">
     <mxGraphModel dx="1027" dy="483" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -102,7 +102,7 @@
             <mxPoint x="240" y="145" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Gpq5c_7kHIedRwNDp9xH-44" value="UserDetails loadedUser = this.getUserDetailsService().loadUserByUsername(username);&lt;br&gt;调用loadUserByUsername()方法查询用户" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontColor=#000000;" vertex="1" connectable="0" parent="Gpq5c_7kHIedRwNDp9xH-43">
+        <mxCell id="Gpq5c_7kHIedRwNDp9xH-44" value="5、UserDetails loadedUser = this.getUserDetailsService().loadUserByUsername(username);&lt;br&gt;调用loadUserByUsername()方法查询用户" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontColor=#000000;" vertex="1" connectable="0" parent="Gpq5c_7kHIedRwNDp9xH-43">
           <mxGeometry x="-0.3128" y="-1" relative="1" as="geometry">
             <mxPoint x="111" y="-1" as="offset" />
           </mxGeometry>
@@ -151,6 +151,17 @@
         </mxCell>
         <mxCell id="Gpq5c_7kHIedRwNDp9xH-45" value="5.2、把对应的用户信息以及权限信息封装成UserDetails对象" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="1840" y="400" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Gpq5c_7kHIedRwNDp9xH-46" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;labelBackgroundColor=#FFFFFF;fontSize=12;fontColor=#000000;exitX=-0.233;exitY=0.886;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Gpq5c_7kHIedRwNDp9xH-41" target="Gpq5c_7kHIedRwNDp9xH-18">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1420" y="510" as="sourcePoint" />
+            <mxPoint x="1580" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gpq5c_7kHIedRwNDp9xH-47" value="6、返回UserDetails对象" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontColor=#000000;" vertex="1" connectable="0" parent="Gpq5c_7kHIedRwNDp9xH-46">
+          <mxGeometry x="0.2803" y="2" relative="1" as="geometry">
+            <mxPoint x="95" y="-3" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
