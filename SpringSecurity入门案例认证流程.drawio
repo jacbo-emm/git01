@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-12T07:35:43.933Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.46" etag="Y5fEzTLYH9JCOC3UoQrZ" version="20.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-12T07:38:04.578Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.46" etag="Q1Y2sRI0yU97Cf1ceSQF" version="20.6.2" type="github">
   <diagram id="kLP8qakzrDYC7eFiV1lC" name="第 1 页">
     <mxGraphModel dx="1027" dy="483" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -20,7 +20,7 @@
             <mxPoint x="165" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Gpq5c_7kHIedRwNDp9xH-58" value="2、封装Authentication对象，没有进行授权操作" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;labelBackgroundColor=#FFFFFF;fontSize=12;fontColor=#000000;" edge="1" parent="ZFVzueByNY8ZGJYjlOSb-11">
+        <mxCell id="Gpq5c_7kHIedRwNDp9xH-58" value="9、如果返回来Authentication对象就使用&lt;br&gt;SecurityContextHolder.getContext().setAuthentication()方法" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;labelBackgroundColor=#FFFFFF;fontSize=12;fontColor=#000000;" edge="1" parent="ZFVzueByNY8ZGJYjlOSb-11">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="165" y="410" as="sourcePoint" />
             <Array as="points">
