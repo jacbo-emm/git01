@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-28T12:02:45.180Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 Edg/109.0.1518.70" etag="zNzE5SG3XA0z0vZv7Lbo" version="20.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-28T12:20:22.901Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 Edg/109.0.1518.70" etag="tc4XEXP1uomHF9-Ma7XQ" version="20.8.3" type="github">
   <diagram id="AxvfqQBkXuLkjV5kiNy3" name="第 1 页">
     <mxGraphModel dx="1004" dy="581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -362,6 +362,65 @@
         </mxCell>
         <mxCell id="amYC__0B2uBA5p-aFP90-69" value="系统三&amp;nbsp; &amp;nbsp;example3.com" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontColor=#0a0000;" vertex="1" parent="1">
           <mxGeometry x="1005" y="2195" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="amYC__0B2uBA5p-aFP90-71" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=14;fontColor=#0a0000;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="2700" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="amYC__0B2uBA5p-aFP90-72" value="" style="shape=mxgraph.cisco.computers_and_peripherals.laptop;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1005" y="2700" width="111.2" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="amYC__0B2uBA5p-aFP90-73" value="client" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontColor=#0a0000;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="2775" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="amYC__0B2uBA5p-aFP90-74" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/generic_server.svg;" vertex="1" parent="1">
+          <mxGeometry x="720" y="2686.43" width="60" height="107.14" as="geometry" />
+        </mxCell>
+        <mxCell id="amYC__0B2uBA5p-aFP90-75" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/generic_server.svg;" vertex="1" parent="1">
+          <mxGeometry x="1035" y="2341" width="76.2" height="136.07" as="geometry" />
+        </mxCell>
+        <mxCell id="amYC__0B2uBA5p-aFP90-76" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;fontColor=#0a0000;entryX=0.604;entryY=1.015;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="amYC__0B2uBA5p-aFP90-75">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1080" y="2690" as="sourcePoint" />
+            <mxPoint x="1080" y="2620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="amYC__0B2uBA5p-aFP90-77" value="1、用户登录银行&lt;br&gt;网站且没有退出" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontColor=#0a0000;" vertex="1" parent="1">
+          <mxGeometry x="1072.5" y="2560" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="amYC__0B2uBA5p-aFP90-78" value="黑客" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=14;fontColor=#0a0000;" vertex="1" parent="1">
+          <mxGeometry x="730" y="2380" width="40" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="amYC__0B2uBA5p-aFP90-79" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;fontColor=#0a0000;" edge="1" parent="1" target="amYC__0B2uBA5p-aFP90-74">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="750" y="2490" as="sourcePoint" />
+            <mxPoint x="810" y="2530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="amYC__0B2uBA5p-aFP90-80" value="2、将伪造的转账请求&lt;br&gt;包含在帖子中" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontColor=#0a0000;" vertex="1" connectable="0" parent="amYC__0B2uBA5p-aFP90-79">
+          <mxGeometry x="-0.4991" relative="1" as="geometry">
+            <mxPoint y="31" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="amYC__0B2uBA5p-aFP90-81" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;fontColor=#0a0000;" edge="1" parent="1" target="amYC__0B2uBA5p-aFP90-74">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1000" y="2740" as="sourcePoint" />
+            <mxPoint x="910" y="2660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="amYC__0B2uBA5p-aFP90-82" value="3、银行网站保持登录&lt;br&gt;的情况下浏览帖子" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontColor=#0a0000;" vertex="1" parent="1">
+          <mxGeometry x="811.2" y="2695" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="amYC__0B2uBA5p-aFP90-83" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;fontColor=#0a0000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1050" y="2690" as="sourcePoint" />
+            <mxPoint x="1050" y="2480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="amYC__0B2uBA5p-aFP90-84" value="4、将伪造的转账请求&lt;br&gt;连同在cookie中的&lt;br&gt;身份认证信息发给银行" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontColor=#0a0000;" vertex="1" parent="1">
+          <mxGeometry x="892.5" y="2560" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="amYC__0B2uBA5p-aFP90-85" value="5、银行看到身份认证&lt;br&gt;信息误认为是用户的正常操作" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontColor=#0a0000;" vertex="1" parent="1">
+          <mxGeometry x="840" y="2395" width="210" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
