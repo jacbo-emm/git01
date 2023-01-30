@@ -1,9 +1,33 @@
-<mxfile host="app.diagrams.net" modified="2023-01-30T12:43:25.867Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 Edg/109.0.1518.70" etag="glfuQsCGgVmXJvWE_I-v" version="20.8.13" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-30T12:49:01.115Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 Edg/109.0.1518.70" etag="-x47QkX7-QTWzQZxIs6N" version="20.8.13" type="github">
   <diagram name="第 1 页" id="IDZ_cSrvR40OG9Pob_mp">
     <mxGraphModel dx="1004" dy="581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="sv6WGG4_nYtlqZDD0xGU-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="90" width="170" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="sv6WGG4_nYtlqZDD0xGU-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="145" y="90" width="170" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="sv6WGG4_nYtlqZDD0xGU-1" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;1、生成密钥对，一公一私&lt;br&gt;2、将公钥发送给需要免密的另外一台机器&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="110" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sv6WGG4_nYtlqZDD0xGU-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="485" y="315" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="sv6WGG4_nYtlqZDD0xGU-3" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="320" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="sv6WGG4_nYtlqZDD0xGU-4" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;3、将公钥保存在公钥库中&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="455" y="120" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sv6WGG4_nYtlqZDD0xGU-7" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;node01&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="190" y="60" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sv6WGG4_nYtlqZDD0xGU-8" value="node02" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="490" y="60" width="70" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
